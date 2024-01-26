@@ -1,5 +1,3 @@
----
-
 # Wisecow Application Deployment
 
 ## Docker Deployment
@@ -64,5 +62,3 @@
    ```
 
    This will open the Wisecow application in your default web browser.
-
----
