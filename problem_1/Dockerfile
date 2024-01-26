@@ -1,24 +1,24 @@
-# Using official Ubuntu runtime as a parent image
+# Use an official Ubuntu runtime as a parent image
 FROM ubuntu:latest
 
-# Installing fortune-mod, cowsay, git, and other dependencies
+# Install fortune-mod, cowsay, git, and other dependencies
 RUN apt-get update && \
     apt-get install -y fortune-mod cowsay git netcat-openbsd
 
-# Setting the working directory to /app
+# Set the working directory to /app
 WORKDIR /app
 
-# Cloning the wisecow repository
-RUN git clone https://github.com/nyrahul/wisecow.git .
+# Copy the wisecow.sh file from the current directory to /app
+COPY wisecow.sh .
 
-# Providing execute permission to the script
+# Provide execute permission to the script
 RUN chmod +x wisecow.sh
 
-# Exposing the port that the script will use
+# Add the paths to fortune-mod and cowsay to the PATH environment variable
+ENV PATH="/usr/games:$PATH"
+
+# Expose the port that the script will use
 EXPOSE 4499
 
-# Setting PATH to include /usr/games where fortune and cowsay binaries are located
-ENV PATH="/usr/games:${PATH}"
-
-# Runing the script when the container launches
+# Run the script with prerequisites check when the container launches
 CMD ["./wisecow.sh"]
