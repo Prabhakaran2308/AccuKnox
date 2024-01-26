@@ -62,3 +62,18 @@
    ```
 
    This will open the Wisecow application in your default web browser.
+
+**Output: **
+
+
+Added screenshots for reference.
+
+Successfully containerized the Wisecow application using Docker and orchestrated the application in Kubernetes. For local testing, I utilized port forwarding to map the application to port 80 local. 
+ 
+![image](https://github.com/Prabhakaran2308/AccuKnox/assets/145963770/f47f8fe0-7da6-4073-8455-6fbfb5f09e7d)
+
+![image](https://github.com/Prabhakaran2308/AccuKnox/assets/145963770/01511dba-98b6-4757-a1d7-7026b5c55863)
+
+
+
+
