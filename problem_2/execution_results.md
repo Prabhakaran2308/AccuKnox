@@ -18,6 +18,6 @@ Execution 2 parameters:
 app_url: www.test.com
 ![image](https://github.com/Prabhakaran2308/AccuKnox/assets/145963770/2d50c322-9183-47c2-aebd-afa25e40c1ba)
 
-**web_server_log_analyzer.pyexecution results**
+**web_server_log_analyzer.py execution results**
 
 ![image](https://github.com/Prabhakaran2308/AccuKnox/assets/145963770/5b1d7204-179a-4591-bd34-4f581f6c5876)
