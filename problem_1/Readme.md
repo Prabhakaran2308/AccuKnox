@@ -63,7 +63,8 @@
 
    This will open the Wisecow application in your default web browser.
 
-**Output: **
+---
+## Output:
 
 
 Added screenshots for reference.
