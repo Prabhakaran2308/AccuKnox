@@ -4,7 +4,7 @@
 
 ### Prerequisites
 - Docker installed on your local machine.
-- Basic knowledge of Docker commands.
+- Kubectl and Minikube on your local machine.
 
 ### Steps
 
